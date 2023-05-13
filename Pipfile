@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["all"], version = "*"}
+pandas = "*"
+spotipy = "*"
+numpy = "*"
+scikit-learn = "*"
+jinja2 = "*"
+sqlalchemy = "*"
+matplotlib = "*"
+seaborn = "*"
+pydantic = "*"
+uvicorn = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
