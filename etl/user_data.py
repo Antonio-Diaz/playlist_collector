@@ -1,6 +1,6 @@
 import os
-import json
 from dotenv import load_dotenv
+
 from extraction_feature.user_feature import UserFeature
 from extraction_feature.playlist_feature import PlaylistFeature
 from extraction_feature.track_feature import TrackFeature
